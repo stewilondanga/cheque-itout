@@ -30,10 +30,10 @@
   min-width: 595px;
 }
 
-/*.check {
+.check {
   background: #fff;
   border: 1px solid #181817;
-  box-shadow: 5px 5px 35px 3px rgba(0,0,0,.3);
+  box-shadow: 5px 5px 35px 3px rgba(0, 0, 0, .3);
   display: block;
   height: 190px;
   outline: 5px solid #fff;
@@ -41,7 +41,7 @@
   width: 545px;
 }
 
-
+/*
 .info {
   display: inline;
   float: left;
