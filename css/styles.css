@@ -135,25 +135,29 @@
   }
 }
 
-/*.written {
+.written {
   border-bottom: 1px solid #181817;
   display: block;
+
   margin: {
     top: .75em;
   }
+
   &:after {
     content: 'dollars';
     float: right;
+
     font: {
       family: 'IBM Plex Sans', sans-serif;
       size: .5em;
     }
+
     margin-top: 1em;
     text-transform: uppercase;
   }
 }
 
-.for {
+/*.for {
   border-bottom: 1px solid #181817;
   display: inline;
   float: left;
