@@ -235,16 +235,17 @@ svg {
   animation: dash 5s linear forwards infinite;
 }
 
-/*@keyframes dash {
+@keyframes dash {
   from {
     stroke-dashoffset: -2045;
   }
+
   to {
     stroke-dashoffset: 0;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
