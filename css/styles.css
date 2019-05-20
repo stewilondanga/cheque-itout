@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,212 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400');
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200');
+
+
+.container {
+  display: flex;
+  font: {
+    family: 'IBM Plex Mono', monospace;
+		size: .75em;
+  }
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  min-width: 595px;
+}
+
+.check {
+  background: #fff;
+  border: 1px solid #181817;
+  box-shadow: 5px 5px 35px 3px rgba(0,0,0,.3);
+  display: block;
+  height: 190px;
+  outline: 5px solid #fff;
+  padding: 1.5em;
+  width: 545px;
+}
+
+
+.info {
+  display: inline;
+  float: left;
+  font: {
+    family: 'IBM Plex Sans', sans-serif;
+		size: .95em;
+  }
+}
+
+.no {
+  display: inline;
+  float: right;
+  font: {
+    family: 'IBM Plex Sans', sans-serif;
+  }
+  &:before {
+    content: '#';
+  }
+}
+
+.date {
+  border-bottom: 1px solid #181817;
+  clear: both;
+  display: inline;
+  float: right;
+	padding-left: .25em;
+  text-align: right;
+  &:after {
+    content: 'date';
+    font: {
+      family: 'IBM Plex Sans', sans-serif;
+      size: .5em;
+    }
+    text: {
+      align: right;
+      transform: uppercase;
+    }
+  }
+}
+
+.order {
+  border-bottom: 1px solid #181817;
+  border-right: 1px solid #181817;
+  display: inline;
+  padding-right: 20em;
+    &:before {
+      content: 'Pay to the order of';
+      display: inline;
+      font: {
+        family: 'IBM Plex Sans', sans-serif;
+        size: .5em;
+      }
+      text: {
+        transform: uppercase;
+        wrap: wrap;
+      }
+      width: 13px;
+      margin-top: -.5em;
+      margin-bottom: 50px;
+  }
+}
+
+.amount {
+  background: rgba(255,255,255, .5);
+  display: inline;
+	-webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  float: right;
+	font-size: .95em;
+  padding: 0 .75em;
+  &:before {
+    content: '$';
+    font: {
+      family: 'IBM Plex Sans', sans-serif;
+			size: 1.15em;
+      weight: bold;
+    }
+    margin-right: .25em;
+  }
+}
+
+.written {
+  border-bottom: 1px solid #181817;
+  display: block;
+  margin: {
+    top: .75em;
+  }
+  &:after {
+    content: 'dollars';
+    float: right;
+    font: {
+      family: 'IBM Plex Sans', sans-serif;
+      size: .5em;
+    }
+    margin-top: 1em;
+    text-transform: uppercase;
+  }
+}
+
+.for {
+  border-bottom: 1px solid #181817;
+  display: inline;
+  float: left;
+  padding-right: 1.75em;
+  &:before {
+    content: 'for';
+    font: {
+      family: 'IBM Plex Sans', sans-serif;
+      size: .5em;
+    }
+    text-transform: uppercase;
+  }
+}
+
+.sign {
+  border-bottom: 1px solid #181817;
+  display: inline;
+  float: right;
+  width: 50%;
+}
+
+.top {
+  clear: both;
+  display: block;
+  margin: {
+    bottom: .75em;
+  }
+  width: 100%;
+}
+
+.mid {
+  clear: both;
+  display: block;
+  padding: {
+    top: 1.5em;
+    bottom: 1.5em;
+  }
+  width: 100%;
+}
+
+.bottom {
+  clear: both;
+  display: block;
+  margin: {
+    top: 1em;
+    bottom: 1.75em;
+  }
+  width: 100%;
+}
+
+svg {
+  height: 15%;
+  width: 15%;
+  display: inline;
+  margin-top: -5em;
+  margin-bottom: -1em;
+}
+
+.jane {
+  fill: none;
+  stroke: #000;
+  stroke-width: 7;
+  stroke-dasharray: 2045;
+  stroke-dashoffset: 2045;
+  stroke-linecap: round;
+  animation: dash 5s linear forwards infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: -2045;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .containers {
