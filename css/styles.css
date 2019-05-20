@@ -157,22 +157,25 @@
   }
 }
 
-/*.for {
+.for {
   border-bottom: 1px solid #181817;
   display: inline;
   float: left;
   padding-right: 1.75em;
+
   &:before {
     content: 'for';
+
     font: {
       family: 'IBM Plex Sans', sans-serif;
       size: .5em;
     }
+
     text-transform: uppercase;
   }
 }
 
-.sign {
+/*.sign {
   border-bottom: 1px solid #181817;
   display: inline;
   float: right;
