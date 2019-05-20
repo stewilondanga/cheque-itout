@@ -175,14 +175,14 @@
   }
 }
 
-/*.sign {
+.sign {
   border-bottom: 1px solid #181817;
   display: inline;
   float: right;
   width: 50%;
 }
 
-.top {
+/*.top {
   clear: both;
   display: block;
   margin: {
