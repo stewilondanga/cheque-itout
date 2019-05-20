@@ -51,18 +51,20 @@
   }
 }
 
-/*.no {
+.no {
   display: inline;
   float: right;
+
   font: {
     family: 'IBM Plex Sans', sans-serif;
   }
+
   &:before {
     content: '#';
   }
 }
 
-.date {
+/*.date {
   border-bottom: 1px solid #181817;
   clear: both;
   display: inline;
