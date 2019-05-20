@@ -16,22 +16,21 @@
   height: 1.5em;
 }
 
-/*
-
-
 .container {
   display: flex;
+
   font: {
     family: 'IBM Plex Mono', monospace;
-		size: .75em;
+    size: .75em;
   }
+
   align-items: center;
   justify-content: center;
   margin-top: 25vh;
   min-width: 595px;
 }
 
-.check {
+/*.check {
   background: #fff;
   border: 1px solid #181817;
   box-shadow: 5px 5px 35px 3px rgba(0,0,0,.3);
