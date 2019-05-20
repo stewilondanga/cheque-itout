@@ -205,17 +205,19 @@
   width: 100%;
 }
 
-/*.bottom {
+.bottom {
   clear: both;
   display: block;
+
   margin: {
     top: 1em;
     bottom: 1.75em;
   }
+
   width: 100%;
 }
 
-svg {
+/*svg {
   height: 15%;
   width: 15%;
   display: inline;
