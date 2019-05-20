@@ -41,17 +41,17 @@
   width: 545px;
 }
 
-/*
 .info {
   display: inline;
   float: left;
+
   font: {
     family: 'IBM Plex Sans', sans-serif;
-		size: .95em;
+    size: .95em;
   }
 }
 
-.no {
+/*.no {
   display: inline;
   float: right;
   font: {
