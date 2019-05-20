@@ -64,19 +64,22 @@
   }
 }
 
-/*.date {
+.date {
   border-bottom: 1px solid #181817;
   clear: both;
   display: inline;
   float: right;
-	padding-left: .25em;
+  padding-left: .25em;
   text-align: right;
+
   &:after {
     content: 'date';
+
     font: {
       family: 'IBM Plex Sans', sans-serif;
       size: .5em;
     }
+
     text: {
       align: right;
       transform: uppercase;
@@ -84,7 +87,7 @@
   }
 }
 
-.order {
+/*.order {
   border-bottom: 1px solid #181817;
   border-right: 1px solid #181817;
   display: inline;
