@@ -225,7 +225,7 @@ svg {
   margin-bottom: -1em;
 }
 
-/*.jane {
+.jane {
   fill: none;
   stroke: #000;
   stroke-width: 7;
@@ -235,7 +235,7 @@ svg {
   animation: dash 5s linear forwards infinite;
 }
 
-@keyframes dash {
+/*@keyframes dash {
   from {
     stroke-dashoffset: -2045;
   }
