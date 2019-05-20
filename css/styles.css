@@ -193,17 +193,19 @@
   width: 100%;
 }
 
-/*.mid {
+.mid {
   clear: both;
   display: block;
+
   padding: {
     top: 1.5em;
     bottom: 1.5em;
   }
+
   width: 100%;
 }
 
-.bottom {
+/*.bottom {
   clear: both;
   display: block;
   margin: {
