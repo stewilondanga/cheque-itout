@@ -182,16 +182,18 @@
   width: 50%;
 }
 
-/*.top {
+.top {
   clear: both;
   display: block;
+
   margin: {
     bottom: .75em;
   }
+
   width: 100%;
 }
 
-.mid {
+/*.mid {
   clear: both;
   display: block;
   padding: {
