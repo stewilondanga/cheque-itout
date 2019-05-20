@@ -217,7 +217,7 @@
   width: 100%;
 }
 
-/*svg {
+svg {
   height: 15%;
   width: 15%;
   display: inline;
@@ -225,7 +225,7 @@
   margin-bottom: -1em;
 }
 
-.jane {
+/*.jane {
   fill: none;
   stroke: #000;
   stroke-width: 7;
